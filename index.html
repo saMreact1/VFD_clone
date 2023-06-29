@@ -1,35 +1,46 @@
-<! DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Home - VFD GROUP</title>
-        <link rel="stylesheet" href="vfd.css">
-        <script src="https://kit.fontawesome.com/a341ab46f5.js" crossorigin="anonymous"></script>
-        <link rel="icon" type="image/x-icon" href="/img/VFD.ico">
-    </head>
-    <body>
-       <div class="top">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME - VFD Group</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="/img/VFD.ico">
+    <script src="https://kit.fontawesome.com/a341ab46f5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="img/vfd.png" alt=""></a>
 
-        <div class="logo">
-            <img width="100px" class="logo" src="img/vfd.png" alt="logo">
-        </div>
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Company <i class="fa-solid fa-caret-down"></i></a>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Investments</a></li>
+                <li><a href="#">Investors Information</a></li>
 
-        <div id="nav">
-            <span class="nav">
-                <a href="#home">Home</a>
-                <a href="#inv">Investments</a>
-                <a href="#info">Investor Information</a>
-                <a href="#com">Company</a>
-            </span>
+                
+                <li><a href="#">Contact Us <i class="fa-solid fa-caret-down"></i></a>
+                    <ul>
+                        <li><a href="#">Get Help</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-            <span class="cont">
-                <a id="cont" href="#cont">Contact Us</a>
-                <i class="fas fa-envelope"></i>
-            </span>
-        </div>
-
-       </div>
-
-       <div class="container">
+    <div class="container">
 
         <div class="para">
             <h1>
@@ -47,15 +58,15 @@
             <img id="meet" src="img/workplace1.jfif" alt="meet">
         </div>
 
-       </div>
+    </div>
 
-       <div class="container1">
-        <div class="para1">
+    <div class="container1">
+        <div class="para1 para1a">
             <p class="fig">
                 <strong>Our Figures</strong>
             </p>
         </div>
-        <div class="para1" class="para1b">
+        <div class="para1 para1b">
             <h1>
                 40+
             </h1>
@@ -63,7 +74,7 @@
                 Portfolio Investment
             </p>
         </div>
-        <div class="para1">
+        <div class="para1 para1b">
             <h1>
                 9
             </h1>
@@ -71,7 +82,7 @@
                 Investment Sector
             </p>
         </div>
-        <div class="para1">
+        <div class="para1 para1b">
             <h1>
                 &#8358;234.02
             </h1>
@@ -79,7 +90,7 @@
                 Individual Share Price
             </p>
         </div>
-        <div class="para1">
+        <div class="para1 para1b">
             <h1>
                 &#8358;107bn
             </h1>
@@ -88,9 +99,9 @@
             </p>
         </div>
 
-       </div><hr>
+    </div><hr>
 
-       <div class="container2">
+    <div class="container2">
 
         <div class="para2" id="par1">
             <h2>
@@ -148,131 +159,131 @@
                 </p>
             </div>
         </div>
-        
 
-       </div><hr>
+    </div> <hr>
 
-       <div class="container3">
+    <div class="container3">
         <iframe width="100%" height="170" src="https://www.youtube.com/embed/4HMdtf3-gYQ?controls=0" frameborder="0"></iframe>
-       </div>
+    </div>
+    
+    <div class="para3">
+        <h2>
+            News & Updates
+        </h2>
+    </div>
 
-        <div class="para3">
-            <h2>
-                News & Updates
+    <div class="container4">
+
+        <div class="para4 para4a">          
+            <img style="width: 325px;" class="invest" src="img/coin.jfif" alt="invest">
+            <p>
+                May 28,2022
+            </p>
+            <h3>
+                Building a financial legacy
+            </h3>
+            <p>
+                Amid life hustle and bustle,it is easy to lose sight
+                of why we work so hard to make ends meet.
+                But deep down,that is not all.
+            </p>
+            <a href="#readmore" class="chev">Read More <i class="fas fa-chevron-right"></i></a>
+        </div>
+        
+        <div class="para4 para4b">
+            <img style="width:174px; height: 100px;" src="img/workplace.jfif" alt="work">
+            <p>
+                May 19,2022
+            </p>
+            <h3>
+                Building resilience in a hybrid workplace
+            </h3>
+            <p>
+                The tools that allow for remote work have been around for years,yet
+                many companies continued with the 8-5 physical model...
+                <a href="#readmore">read more</a>
+            </p>
+            <br><br>
+            <hr>
+            <br><br>
+            <img style="width: 174px; height: 100px;" src="img/workplace2.jfif" alt="emp">
+            <p>
+                May15,2022
+            </p>
+            <h3>
+                Investing in your employess?
+            </h3>
+            <p>
+                Rather than just leaving your employees to do the job,
+                we found out that the top performing company also invest in their
+                employees and here's how they do it...
+                <a href="#readmore">read more</a>
+            </p>
+        </div>
+
+    </div>
+
+    <div class="container5">
+        <div class="para5">
+            <h2 style="color: white;">
+                Subscribe To Our Newsletter!
             </h2>
+            <p style="color: white;">
+                Get to know more about VFD Group.Subscribe with your email below.
+            </p>
+        </div>
+        <div class="para5a">
+            <input type="email" placeholder="Enter your email address">
+            <button>Subscribe</button>
+        </div>
+    </div>
+
+    <div class="container6">
+
+        <div class="para6">
+            <img width="100px" src="img/vfd.png" alt="logo">
+        </div>
+        <div class="para6 para6a">
+            <ul>
+                <li><h3>Company</h3></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#com">Community</a></li>
+                <li><a href="#carr">Careers</a></li>
+            </ul>
+        </div>
+        <div class="para6 para6a">
+            <ul>
+                <li><h3>Help</h3></li>
+                <li><a href="#help">Get Help</a></li>
+                <li><a href="#faq">FAQs</a></li>
+                <li><a href="#cont">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="para6 para6a">
+            <ul>
+                <li><h3>Transparency</h3></li>
+                <li><a href="#terms">Terms & Condition</a></li>
+                <li><a href="#pri">Privacy Policy</a></li>
+                <li><a href="#whis">Whitsle Blowing Policy</a></li>
+            </ul>
+        </div>
+        <div class="para6 para6a">
+            <ul>
+                <li><h3>Socials</h3></li>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </ul>
         </div>
 
-        <div class="container4">
+    </div>
 
-            <div class="para4 para4a">          
-                <img style="width: 325px;" class="invest" src="img/coin.jfif" alt="invest">
-                <p>
-                    May 28,2022
-                </p>
-                <h2>
-                    Building a financial legacy
-                </h2>
-                <p>
-                    Amid life hustle and bustle,it is easy to lose sight
-                    of why we work so hard to make ends meet.
-                    But deep down,that is not all.
-                </p>
-                <a href="#readmore" class="chev">Read More <i class="fas fa-chevron-right"></i></a>
-            </div>
-            
-            <div class="para4 para4b">
-                <img style="width:174px; height: 100px;" src="img/workplace.jfif" alt="work">
-                <p>
-                    May 19,2022
-                </p>
-                <h2>
-                    Building resilience in a hybrid workplace
-                </h2>
-                <p>
-                    The tools that allow for remote work have been around for years,yet
-                    many companies continued with the 8-5 physical model...
-                    <a href="#readmore">read more</a>
-                </p>
-                <br><br>
-                <hr>
-                <br><br>
-                <img style="width: 174px; height: 100px;" src="img/workplace2.jfif" alt="emp">
-                <p>
-                    May15,2022
-                </p>
-                <h2>
-                    Investing in your employess?
-                </h2>
-                <p>
-                    Rather than just leaving your employees to do the job,
-                    we found out that the top performing company also invest in their
-                    employees and here's how they do it...
-                    <a href="#readmore">read more</a>
-                </p>
-            </div>
-
-        </div>
-
-        <div class="container5">
-            <div class="para5">
-                <h2 style="color: white;">
-                    Subscribe To Our Newsletter!
-                </h2>
-                <p style="color: white;">
-                    Get to know more about VFD Group.Subscribe with your email below.
-                </p>
-            </div>
-            <div class="para5a">
-                <input type="email" placeholder="Enter your email address">
-                <button>Subscribe</button>
-            </div>
-        </div>
-
-        <div class="container6">
-
-            <div class="para6">
-                <img width="100px" src="img/vfd.png" alt="logo">
-            </div>
-            <div class="para6">
-                <ul>
-                    <li><h4>Company</h4></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#com">Community</a></li>
-                    <li><a href="#carr">Careers</a></li>
-                </ul>
-            </div>
-            <div class="para6">
-                <ul>
-                    <li><h4>Help</h4></li>
-                    <li><a href="#help">Get Help</a></li>
-                    <li><a href="#faq">FAQs</a></li>
-                    <li><a href="#cont">Contact Us</a></li>
-                </ul>
-            </div>
-            <div class="para6">
-                <ul>
-                    <li><h4>Transparency</h4></li>
-                    <li><a href="#terms">Terms & Condition</a></li>
-                    <li><a href="#pri">Privacy Policy</a></li>
-                    <li><a href="#whis">Whitsle Blowing Policy</a></li>
-                </ul>
-            </div>
-            <div class="para6">
-                <ul>
-                    <li><h4>Socials</h4></li>
-                    <i class="fa-brands fa-linkedin"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-youtube"></i>
-                </ul>
-            </div>
-
-        </div>
-
-        <footer>
-        <hr>
-            <i class="fas fa-copyright"></i> 2022 VFD Group.All rights reserved.
-        </footer>
-    </body>
+    <footer>
+    <hr>
+    <br>
+        <i class="fas fa-copyright"></i> 2022 VFD Group.All rights reserved.
+    </footer>
+</body>
 </html>
